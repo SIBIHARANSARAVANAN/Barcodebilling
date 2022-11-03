@@ -1,0 +1,335 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.barcodebilling"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/sibiharan/Desktop/barcodebilling 2/android/app/src/debug/AndroidManifest.xml:6:5-66
+14-->/Users/sibiharan/Desktop/barcodebilling 2/android/app/src/debug/AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-65
+15-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-62
+16
+17    <uses-feature
+17-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-11:35
+18        android:name="android.hardware.camera.autofocus"
+18-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-57
+19        android:required="true" />
+19-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-32
+20
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+21-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+22
+23    <queries>
+23-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-12:15
+24        <package android:name="com.instagram.android" />
+24-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-57
+24-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:11:18-54
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+28    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+29    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+29-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:25:5-79
+29-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:25:22-76
+30    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+30-->[com.android.installreferrer:installreferrer:1.0] /Users/sibiharan/.gradle/caches/transforms-3/85f25fb7c7f42c54c4eebdf5b87b09b1/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+30-->[com.android.installreferrer:installreferrer:1.0] /Users/sibiharan/.gradle/caches/transforms-3/85f25fb7c7f42c54c4eebdf5b87b09b1/transformed/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107
+31
+32    <application
+33        android:name="android.app.Application"
+34        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+34-->[androidx.core:core:1.6.0] /Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+35        android:debuggable="true"
+36        android:icon="@mipmap/ic_launcher"
+37        android:label="barcodebilling"
+38        android:supportsRtl="true" >
+38-->[com.facebook.android:facebook-share:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/7ae8b9e1a678ab49bc3223bdc3f1900d/transformed/jetified-facebook-share-5.15.3/AndroidManifest.xml:28:18-44
+39        <activity
+40            android:name="com.example.barcodebilling.MainActivity"
+41            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42            android:exported="true"
+43            android:hardwareAccelerated="true"
+44            android:launchMode="singleTop"
+45            android:theme="@style/LaunchTheme"
+46            android:windowSoftInputMode="adjustResize" >
+47
+48            <!--
+49                 Specifies an Android theme to apply to this Activity as soon as
+50                 the Android process has started. This theme is visible to the user
+51                 while the Flutter UI initializes. After that, this theme continues
+52                 to determine the Window background behind the Flutter UI.
+53            -->
+54            <meta-data
+55                android:name="io.flutter.embedding.android.NormalTheme"
+56                android:resource="@style/NormalTheme" />
+57
+58            <intent-filter>
+59                <action android:name="android.intent.action.MAIN" />
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+62            </intent-filter>
+63        </activity>
+64        <!--
+65             Don't delete the meta-data below.
+66             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+67        -->
+68        <meta-data
+69            android:name="flutterEmbedding"
+70            android:value="2" />
+71        <meta-data
+71-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-16:39
+72            android:name="com.google.android.gms.vision.DEPENDENCIES"
+72-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-70
+73            android:value="barcode" />
+73-->[:flutter_qr_bar_scanner] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-36
+74
+75        <provider
+75-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:15:9-23:20
+76            android:name="zhuoyuan.li.fluttershareme.util.ShareFileProvider"
+76-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-77
+77            android:authorities="com.example.barcodebilling.provider"
+77-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-60
+78            android:exported="false"
+78-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:18:13-37
+79            android:grantUriPermissions="true" >
+79-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:19:13-47
+80            <meta-data
+80-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-22:54
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:21:17-67
+82                android:resource="@xml/file_paths" />
+82-->[:flutter_share_me] /Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/library_manifest/debug/AndroidManifest.xml:22:17-51
+83        </provider>
+84
+85        <activity
+85-->[:url_launcher_android] /Users/sibiharan/Desktop/barcodebilling 2/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher_android] /Users/sibiharan/Desktop/barcodebilling 2/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher_android] /Users/sibiharan/Desktop/barcodebilling 2/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher_android] /Users/sibiharan/Desktop/barcodebilling 2/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+89
+90        <uses-library
+90-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+91            android:name="androidx.window.extensions"
+91-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+92            android:required="false" />
+92-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+93        <uses-library
+93-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+94            android:name="androidx.window.sidecar"
+94-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+95            android:required="false" />
+95-->[androidx.window:window:1.0.0-beta04] /Users/sibiharan/.gradle/caches/transforms-3/e1122a04ff3f2e301327facd1abb25ea/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+96
+97        <service
+97-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:9:9-15:19
+98            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+98-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:10:13-91
+99            android:directBootAware="true"
+99-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:17:13-43
+100            android:exported="false" >
+100-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:11:13-37
+101            <meta-data
+101-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:12:13-14:85
+102                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+102-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:13:17-120
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.4] /Users/sibiharan/.gradle/caches/transforms-3/2ee160ef9a18232f2da2974cb17eb80e/transformed/jetified-play-services-mlkit-barcode-scanning-16.1.4/AndroidManifest.xml:14:17-82
+104            <meta-data
+104-->[com.google.mlkit:vision-common:16.3.0] /Users/sibiharan/.gradle/caches/transforms-3/c4305d5ae107fb999f022bf9fc43a5c3/transformed/jetified-vision-common-16.3.0/AndroidManifest.xml:12:13-14:85
+105                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+105-->[com.google.mlkit:vision-common:16.3.0] /Users/sibiharan/.gradle/caches/transforms-3/c4305d5ae107fb999f022bf9fc43a5c3/transformed/jetified-vision-common-16.3.0/AndroidManifest.xml:13:17-124
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.mlkit:vision-common:16.3.0] /Users/sibiharan/.gradle/caches/transforms-3/c4305d5ae107fb999f022bf9fc43a5c3/transformed/jetified-vision-common-16.3.0/AndroidManifest.xml:14:17-82
+107            <meta-data
+107-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:20:13-22:85
+108                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+108-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:21:17-120
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:22:17-82
+110        </service>
+111
+112        <provider
+112-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:9:9-13:38
+113            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+113-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:10:13-78
+114            android:authorities="com.example.barcodebilling.mlkitinitprovider"
+114-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:11:13-69
+115            android:exported="false"
+115-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:12:13-37
+116            android:initOrder="99" />
+116-->[com.google.mlkit:common:17.1.1] /Users/sibiharan/.gradle/caches/transforms-3/24df456af366e2f9c8ead2fb97e64342/transformed/jetified-common-17.1.1/AndroidManifest.xml:13:13-35
+117
+118        <activity
+118-->[com.google.android.gms:play-services-base:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+119            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+119-->[com.google.android.gms:play-services-base:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+120            android:exported="false"
+120-->[com.google.android.gms:play-services-base:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+121-->[com.google.android.gms:play-services-base:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+122
+123        <meta-data
+123-->[com.google.android.gms:play-services-basement:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/08414650f5d6aefb09bd1fbdfac6ff0f/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+124            android:name="com.google.android.gms.version"
+124-->[com.google.android.gms:play-services-basement:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/08414650f5d6aefb09bd1fbdfac6ff0f/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+125            android:value="@integer/google_play_services_version" />
+125-->[com.google.android.gms:play-services-basement:17.4.0] /Users/sibiharan/.gradle/caches/transforms-3/08414650f5d6aefb09bd1fbdfac6ff0f/transformed/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+126
+127        <activity
+127-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+128            android:name="com.facebook.FacebookActivity"
+128-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:31:13-57
+129            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+129-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:32:13-96
+130            android:theme="@style/com_facebook_activity_theme" />
+130-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+131        <activity android:name="com.facebook.CustomTabMainActivity" />
+131-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+131-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+132        <activity
+132-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+133            android:name="com.facebook.CustomTabActivity"
+133-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+134            android:exported="true" >
+134-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+135            <intent-filter>
+135-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+136                <action android:name="android.intent.action.VIEW" />
+136-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+136-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+137
+138                <category android:name="android.intent.category.DEFAULT" />
+138-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+138-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+139                <category android:name="android.intent.category.BROWSABLE" />
+139-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+139-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+140
+141                <data
+141-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+142                    android:host="cct.com.example.barcodebilling"
+142-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+143                    android:scheme="fbconnect" />
+143-->[com.facebook.android:facebook-common:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+144            </intent-filter>
+145        </activity>
+146        <activity
+146-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:28:9-31:49
+147            android:name="com.twitter.sdk.android.tweetui.PlayerActivity"
+147-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:29:13-74
+148            android:configChanges="keyboardHidden|orientation|screenSize"
+148-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:30:13-74
+149            android:theme="@style/MediaTheme" />
+149-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:31:13-46
+150        <activity
+150-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:32:9-34:49
+151            android:name="com.twitter.sdk.android.tweetui.GalleryActivity"
+151-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:33:13-75
+152            android:theme="@style/MediaTheme" />
+152-->[com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/AndroidManifest.xml:34:13-46
+153        <!--
+154         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+155         with the application context. This config is merged in with the host app's manifest,
+156         but there can only be one provider with the same authority activated at any given
+157         point; so if the end user has two or more different apps that use Facebook SDK, only the
+158         first one will be able to use the provider. To work around this problem, we use the
+159         following placeholder in the authority to identify each host application as if it was
+160         a completely different provider.
+161        -->
+162        <provider
+162-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+163            android:name="com.facebook.internal.FacebookInitProvider"
+163-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+164            android:authorities="com.example.barcodebilling.FacebookInitProvider"
+164-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+165            android:exported="false" />
+165-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+166
+167        <receiver
+167-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+168            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+168-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+169            android:exported="false" >
+169-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+170            <intent-filter>
+170-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+171                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+171-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+171-->[com.facebook.android:facebook-core:5.15.3] /Users/sibiharan/.gradle/caches/transforms-3/1a5703e4102538a8ce4efaf7d47e4d3b/transformed/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+172            </intent-filter>
+173        </receiver>
+174
+175        <service
+175-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:29:9-35:19
+176            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+176-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:30:13-103
+177            android:exported="false" >
+177-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:31:13-37
+178            <meta-data
+178-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:32:13-34:39
+179                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+179-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:33:17-94
+180                android:value="cct" />
+180-->[com.google.android.datatransport:transport-backend-cct:2.3.2] /Users/sibiharan/.gradle/caches/transforms-3/7c00498446845b9294ae90f9c9aa510f/transformed/jetified-transport-backend-cct-2.3.2/AndroidManifest.xml:34:17-36
+181        </service>
+182        <service
+182-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+183            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+183-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+184            android:exported="false"
+184-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+185            android:permission="android.permission.BIND_JOB_SERVICE" >
+185-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+186        </service>
+187
+188        <receiver
+188-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+189            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+189-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+190            android:exported="false" />
+190-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/sibiharan/.gradle/caches/transforms-3/8dd44e2387968f213e3d881ca5411c7a/transformed/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+191
+192        <activity
+192-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:28:9-31:71
+193            android:name="com.twitter.sdk.android.tweetcomposer.ComposerActivity"
+193-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:29:13-82
+194            android:exported="false"
+194-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:30:13-37
+195            android:windowSoftInputMode="adjustResize|stateVisible" />
+195-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:31:13-68
+196
+197        <service
+197-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:33:9-36:40
+198            android:name="com.twitter.sdk.android.tweetcomposer.TweetUploadService"
+198-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:34:13-84
+199            android:enabled="true"
+199-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:35:13-35
+200            android:exported="false" />
+200-->[com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/AndroidManifest.xml:36:13-37
+201
+202        <activity
+202-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/f31c1a82940a4868ae51212e6f6f8b3f/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:28:9-32:40
+203            android:name="com.twitter.sdk.android.core.identity.OAuthActivity"
+203-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/f31c1a82940a4868ae51212e6f6f8b3f/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:29:13-79
+204            android:configChanges="orientation|screenSize"
+204-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/f31c1a82940a4868ae51212e6f6f8b3f/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:30:13-59
+205            android:excludeFromRecents="true"
+205-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/f31c1a82940a4868ae51212e6f6f8b3f/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:31:13-46
+206            android:exported="false" />
+206-->[com.twitter.sdk.android:twitter-core:3.1.1] /Users/sibiharan/.gradle/caches/transforms-3/f31c1a82940a4868ae51212e6f6f8b3f/transformed/jetified-twitter-core-3.1.1/AndroidManifest.xml:32:13-37
+207    </application>
+208
+209</manifest>

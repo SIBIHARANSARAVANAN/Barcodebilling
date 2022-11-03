@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/layout/notification_template_part_time.xml"
+    }
+]

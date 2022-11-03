@@ -1,0 +1,94 @@
+[
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/com_facebook_send_button_text_color.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/7ae8b9e1a678ab49bc3223bdc3f1900d/transformed/jetified-facebook-share-5.15.3/res/color/com_facebook_send_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/switch_thumb_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/com_facebook_button_text_color.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/2056aeae1e66778dbbcadbcb3eb3f418/transformed/jetified-facebook-common-5.15.3/res/color/com_facebook_button_text_color.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_btn_colored_text_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_spinner.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/switch_thumb_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_default.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_hint_foreground_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_switch_track.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_secondary_text_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_primary_text_material_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_primary_text_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_hint_foreground_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_edittext.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_tint_seek_thumb.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/color/abc_search_url_text.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/color/abc_search_url_text.xml"
+    }
+]

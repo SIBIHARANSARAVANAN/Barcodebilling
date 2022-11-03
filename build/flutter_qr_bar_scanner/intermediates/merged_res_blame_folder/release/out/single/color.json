@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_qr_bar_scanner/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/2ab9d03da7295c631bdcaee83895d94a/transformed/jetified-play-services-base-17.4.0/res/color/common_google_signin_btn_text_dark.xml"
+    }
+]

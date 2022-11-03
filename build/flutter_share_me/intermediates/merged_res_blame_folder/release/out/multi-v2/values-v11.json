@@ -1,0 +1,74 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1081",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1341"
+                    }
+                },
+                {
+                    "source": "/Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "/Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "315"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "1081",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "1341"
+                    }
+                },
+                {
+                    "source": "/Users/sibiharan/.gradle/caches/transforms-3/c7504ac93db9624df78220b1087985d4/transformed/jetified-tweet-composer-3.1.1/res/values-v11/values-v11.xml",
+                    "from": {
+                        "startLines": "2,10",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,565",
+                        "endLines": "9,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "560,1076"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/tw__like_action.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/e20b5b50d09fb997141c2ed7cdfd7eb3/transformed/jetified-tweet-ui-3.1.1/res/drawable-v21/tw__like_action.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/flutter_share_me/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/9098719be9bf80f2fbd02b34770183c5/transformed/appcompat-1.0.0/res/drawable-v21/abc_dialog_material_background.xml"
+    }
+]

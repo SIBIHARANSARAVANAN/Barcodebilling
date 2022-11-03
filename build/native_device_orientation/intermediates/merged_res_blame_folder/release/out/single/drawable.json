@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/native_device_orientation/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/native_device_orientation/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/native_device_orientation/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/sibiharan/Desktop/barcodebilling 2/build/native_device_orientation/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/sibiharan/.gradle/caches/transforms-3/cbbd95a71c37efdfc64418cb4f36b641/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    }
+]
